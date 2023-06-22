@@ -10,8 +10,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.18.2",
+    "@react-native-community/netinfo": "^9.3.10",
+    "amazon-cognito-identity-js": "^6.3.0",
+    "aws-amplify": "^5.3.0",
     "react": "18.2.0",
-    "react-native": "0.71.11"
+    "react-native": "0.71.11",
+    "react-native-inappbrowser-reborn": "^3.7.0",
+    "react-native-pkce-challenge": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
