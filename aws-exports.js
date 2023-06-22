@@ -63,8 +63,8 @@ const awsConfig = {
       redirectSignOut: 'rncognitodemo://signin/',
       clientId: '4j3nism2gqdcbu4hu2bhjbpfe8',
       responseType: 'code', // or 'token', note that REFRESH token will only be generated when the responseType is code
-      codeChallengeMethod: 'S256',
-      codeChallenge: codeChallenge,
+      //   codeChallengeMethod: 'S256',
+      //   codeChallenge: codeChallenge,
     },
   },
 };
