@@ -85,7 +85,7 @@ function App(): JSX.Element {
         <View style={styles.headingWrapper}>
           <Text style={styles.title}>OAuth SSO Demo</Text>
           <Text style={styles.userData}>
-            User: {user ? user.username : 'None'}
+            User: {user ? user.attributes.given_name : 'None'}
           </Text>
         </View>
         <View style={styles.formWrapper}>

@@ -1,7 +1,7 @@
 import {Amplify} from 'aws-amplify';
-import pkceChallenge from 'react-native-pkce-challenge';
+// import pkceChallenge from 'react-native-pkce-challenge';
 
-const {codeChallenge, codeVerifier} = pkceChallenge();
+// const {codeChallenge, codeVerifier} = pkceChallenge();
 
 const awsConfig = {
   Auth: {
@@ -19,7 +19,7 @@ const awsConfig = {
     userPoolId: 'us-west-2_VGOUuN5NH',
 
     // (optional) - Amazon Cognito Web Client ID (26-char alphanumeric string, App client secret needs to be disabled)
-    userPoolWebClientId: '4j3nism2gqdcbu4hu2bhjbpfe8',
+    userPoolWebClientId: '6mai4kusu5p63fqbnbsl6sdv21',
 
     // (optional) - Enforce user authentication prior to accessing AWS resources or not
     mandatorySignIn: true,
@@ -61,7 +61,7 @@ const awsConfig = {
       //   redirectUri: 'rncognitodemo://signin/',
       redirectSignIn: 'rncognitodemo://signin/',
       redirectSignOut: 'rncognitodemo://signin/',
-      clientId: '4j3nism2gqdcbu4hu2bhjbpfe8',
+      clientId: '6mai4kusu5p63fqbnbsl6sdv21',
       responseType: 'code', // or 'token', note that REFRESH token will only be generated when the responseType is code
       //   codeChallengeMethod: 'S256',
       //   codeChallenge: codeChallenge,
